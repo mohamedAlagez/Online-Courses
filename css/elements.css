@@ -1,0 +1,389 @@
+body{
+    text-align: -webkit-center;
+}
+
+.page-headings{
+    font-family: "Tajawal";
+    line-height: 1.5;
+    font-weight: 900;
+    color: #1a1661;
+}
+
+.login-container {
+    text-align: right;
+    padding: 20px;
+}
+
+.fill-btn {
+    border-radius: 2rem;
+    width: 150px;
+    font-size: 16px;
+    background: linear-gradient(to right, #00499b, #005bff);
+    color: #fff;
+    border: 2px solid #eee;
+}
+
+.outline-button {
+    border-radius: 2rem;
+    width: 150px;
+    font-weight: 500;
+    font-size: 16px;
+    color: #6c6c6c;
+    border: 2px solid #0c06ee;
+}
+
+.text-inputs {
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 5px 15px;
+    color: #6a6a6a;
+    font-size: 16px;
+    letter-spacing: .5px;
+    border: #8680ff solid 2px;
+    margin: 25px;
+    text-align: left;
+    display: block;
+    width: 35%;
+    background: white;
+}
+
+.dropdown{
+    display: inline-block;
+}
+.fill-dropdown{
+    background: linear-gradient(to right, #00499b, #005bff);
+    color: #fff;
+    border: none;
+}
+
+.outline-dropdown{
+    background: white;
+    color: #6c6c6c;
+    border: 2px solid #0c06ee;
+}
+
+.registration-input {
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 5px 40px;
+    color: #6a6a6a;
+    font-size: 16px;
+    letter-spacing: .5px;
+    border: #8680ff solid 2px;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    width: 100%;
+    background: white;
+}
+
+.input-icons i {
+    position: relative;
+    top: 38px;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: #6156F9;
+    min-width: 50px;
+    text-align: center;
+}
+
+.eye-icon {
+    position: relative;
+    top: 40px;
+    color: #6156F9;
+    min-width: 50px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+}
+
+.login-btn-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.input-container{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.input-label{
+    width: 30%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1661;
+    margin: 0;
+}
+
+.edit-user-img-container{
+    width: 30%;
+    text-align: center;
+}
+.edit-user-img {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}
+
+.edit-profile-input{
+    width: 70%;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #6a6a6a;
+    font-size: 16px;
+    letter-spacing: .5px;
+    border: #8680ff solid 2px;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    background: white;
+}
+
+
+
+.courses-column {
+    padding: 2rem 1rem;
+}
+
+.course-card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    border-radius: 20px;
+    border: none;
+}
+
+.course-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+    padding: 0px;
+}
+
+.course-img {
+    width: 100%;
+    min-height: 130px;
+}
+
+.course-card-container {
+    text-align: right;
+    padding: 12px;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.ellipsis-icon {
+    float: left;
+    font-size: 16px;
+}
+
+
+.small-heading {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+    display: inline;
+}
+
+
+
+/*Videos Section*/
+
+
+.notification-container {
+    width: 45px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #f7f7f7;
+    height: 45px;
+    margin: 0 10px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.user-profile-img {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+}
+
+#navbar .small-heading {
+    display: inline;
+}
+
+.small-heading {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+#navbar .container-fluid {
+    padding: 3% 5%;
+    text-align: right;
+}
+
+/*----------videos-css------------*/
+
+#navbar .card {
+    border-radius: 0px;
+    border: none;
+}
+
+.video-title {
+    padding: 0.75rem 1.25rem;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.video-description {
+    text-align: right;
+    padding: 0.75rem 1.25rem;
+    line-height: 1.5;
+}
+
+.video-container {
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    gap: 15px;
+    align-items: flex-start;
+    padding: 5px 5%;
+}
+
+.video-container .main-video {
+    background: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.video-container .main-video iframe {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.video-container .main-video .video-title {
+    color: #000;
+    font-size: 23px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.video-container .main-video .video-description {
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.video-list {
+    text-align: right;
+    background: white;
+    border-radius: 5px;
+    height: 450px;
+    overflow-y: scroll;
+}
+
+.video-list::-webkit-scrollbar {
+    width: 7px;
+}
+
+.video-list::-webkit-scrollbar-track {
+    background: #ccc;
+    border-radius: 50px;
+}
+
+.video-list::-webkit-scrollbar-thumb {
+    background: #666;
+    border-radius: 50px;
+}
+
+
+.video-list .vid iframe {
+    width: 150px;
+    height: 100px;
+    border-radius: 5px;
+}
+
+
+.video-container .video-list .vid {
+    display: flex;
+    align-items: center;
+    text-align: right;
+    justify-content: right;
+    gap: 15px;
+    background: #f7f7f7;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0.1);
+    cursor: pointer;
+}
+
+.video-container .video-list .vid.active {
+    background: #2980b9;
+}
+
+.video-container .video-list .vid.active .video-title {
+    color: #fff;
+}
+
+.video-container .video-list .vid .video-title {
+    color: #000;
+    font-size: 17px;
+}
+
+#navbar .num-of-videos {
+    font-size: 1rem;
+    display: block;
+    color: #727272;
+    margin: 0px;
+}
+
+#navbar .card-header {
+    background: #F7F9FA;
+}
+
+#navbar .card-header:first-child {
+    border: none;
+}
+
+#navbar .card-body {
+    padding: 0rem 1.25rem;
+}
+
+.dropdown-icon {
+    float: left;
+    font-size: 24px;
+}
+
+@media (max-width: 991px) {
+    .video-container {
+        grid-template-columns:1.5fr 1fr;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .video-container {
+        grid-template-columns:1fr;
+    }
+
+    div.col-lg-5.col-md-4{
+        position: absolute;
+        top: 800px;
+    }
+}

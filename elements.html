@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Elements</title>
+    <link rel="icon" href="images/favicon.ico">
+
+    <!--Google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+
+
+    <!--    CSS stylesheets-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/elements.css">
+
+    <!--  Font Awesome-->
+    <script src="https://kit.fontawesome.com/07790d5203.js" crossorigin="anonymous"></script>
+
+    <!--    Bootstrap Scripts-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<h1 class="page-headings">Heading 1 </h1>
+<h2 class="page-headings">Heading 2</h2>
+<h3 class="page-headings">Heading 3 </h3>
+<h4 class="page-headings">Heading 4 </h4>
+<h5 class="page-headings">Heading 5 </h5>
+<h6 class="page-headings">Heading 6 </h6>
+
+<hr>
+
+<button type="button" class="btn btn-dark btn-lg fill-btn">Button lg</button>
+<button type="button" class="btn btn-dark btn-md fill-btn">Button md</button>
+<button type="button" class="btn btn-dark btn-sm fill-btn">Button sm</button>
+
+<br><br>
+
+<button type="button" class="btn btn-outline-primary btn-lg outline-button ">Button lg</button>
+<button type="button" class="btn btn-outline-primary btn-md outline-button ">Button md</button>
+<button type="button" class="btn btn-outline-primary btn-sm outline-button ">Button sm</button>
+
+<hr>
+
+<input type="text" class="text-inputs" placeholder="mohamed Al-agez "/>
+<input type="email" class="text-inputs" placeholder="mohamedalagez828@gmail.com"/>
+<input type="password" class="text-inputs" value="123456789"/>
+
+<label style="margin-left: 25px">checkbox</label>
+<input type="checkbox" checked="checked"/>
+
+<label style="margin-left: 25px">radio</label>
+<input type="radio" checked="checked"/>
+
+<hr>
+
+<div class="dropdown" >
+    <button class="btn btn-secondary dropdown-toggle fill-dropdown " type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+        Dropdown Menu
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+        <a class="dropdown-item" href="#">option 1 </a>
+        <a class="dropdown-item" href="#">option 2</a>
+        <a class="dropdown-item" href="#">option 3</a>
+    </div>
+</div>
+
+<div class="dropdown">
+    <button class="btn btn-secondary dropdown-toggle outline-dropdown " type="button" id="dropdownMenuButton2" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+        Dropdown Menu
+    </button>
+    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+        <a class="dropdown-item" href="#">option 1 </a>
+        <a class="dropdown-item" href="#">option 2</a>
+        <a class="dropdown-item" href="#">option 3</a>
+    </div>
+</div>
+
+<hr>
+
+<div class="col-lg-6 col-md-6 login-container">
+
+    <div class="input-container">
+        <div class="edit-user-img-container">
+            <img src="images/man.png" alt="user-profile" class="edit-user-img">
+        </div>
+        <h1 class="input-label" style="width: 70%;">تعديل الصورة الشخصية</h1>
+    </div>
+
+    <form>
+        <div class="input-icons">
+            <i class='fa-solid fa-user icon'></i>
+            <input type="text" class="registration-input" placeholder="mohamedalagez828@gmail.com"/>
+
+            <i class='fa-solid fa-lock icon'></i>
+            <input type="password" class=" registration-input" value="123456789"/>
+        </div>
+
+        <div class="input-container">
+            <label class="input-label">البريد الالكتروني </label>
+            <input type="email" class="edit-profile-input" placeholder="mohamedalagez828@gmail.com"/>
+        </div>
+
+        <div class="input-container">
+            <label class="input-label">كلمة السر</label>
+            <input type="password" class="edit-profile-input" placeholder="123456789"/>
+        </div>
+        <i class="fa-solid fa-eye eye-icon" style="top: -50px;"></i>
+
+        <div class="login-btn-container">
+            <button type="button" class="btn btn-dark btn-lg login-btn">تسجيل الدخول</button>
+        </div>
+
+    </form>
+</div>
+
+<div class="row">
+    <div class="courses-column col-lg-3 col-md-6">
+        <div class="card course-card">
+            <div class="card-body">
+                <img src="images/course-1.png" class="course-img" alt="course image">
+                <div class="course-card-container">
+                    <i class="fa-solid fa-ellipsis-vertical ellipsis-icon"></i>
+                    <h1 class="small-heading">برمجة عامة</h1>
+                    <p>أ. على الأسطل</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="courses-column col-lg-3 col-md-6">
+        <div class="card course-card">
+            <div class="card-body">
+                <img src="images/course-2.png" class="course-img" alt="course image">
+                <div class="course-card-container">
+                    <i class="fa-solid fa-ellipsis-vertical ellipsis-icon"></i>
+                    <h1 class="small-heading">تكنلوجيا المعلومات</h1>
+                    <p>م. أحمد الشاعر</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-lg-5 col-md-4">
+        <div class="video-list">
+            <h3 class="video-title"> محتويات الدورة </h3>
+            <div class="card" dir="rtl">
+                <div id="heading1" class="card-header collapsed" data-toggle="collapse"
+                     data-target="#collapse1"
+                     aria-expanded="false" aria-controls="collapse1" style="margin-bottom: 0.5rem;">
+                    <i class="fa-solid fa-caret-down dropdown-icon" style="border: none"></i>
+                    <h1 class="small-heading">الوحدة 1 : مقدمة</h1>
+                    <p class="small-heading num-of-videos"> عدد المحاضرات : 4 </p>
+                </div>
+
+                <div id="collapse1" class="collapse" aria-labelledby="heading1"
+                     data-parent="#accordion">
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">1 تاريخ البرمجة</h5>
+                        <p>2 دقيقة </p>
+                        <hr>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">2 تثبيت لغة جافا</h5>
+                        <p>6 دقيقة </p>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" dir="rtl">
+                <div id="heading2" class="card-header collapsed" data-toggle="collapse"
+                     data-target="#collapse2"
+                     aria-expanded="false" aria-controls="collapse2" style="margin-bottom: 0.5rem;">
+                    <i class="fa-solid fa-caret-down dropdown-icon" style="border: none"></i>
+                    <h1 class="small-heading">الوحدة 2 : المتغيرات</h1>
+                    <p class="small-heading num-of-videos"> عدد المحاضرات : 12 </p>
+                </div>
+
+                <div id="collapse2" class="collapse" aria-labelledby="heading2"
+                     data-parent="#accordion">
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">1 تاريخ البرمجة</h5>
+                        <p>2 دقيقة </p>
+                        <hr>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">2 تثبيت لغة جافا</h5>
+                        <p>6 دقيقة </p>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="card" dir="rtl">
+                <div id="heading3" class="card-header collapsed" data-toggle="collapse"
+                     data-target="#collapse3"
+                     aria-expanded="false" aria-controls="collapse3" style="margin-bottom: 0.5rem;">
+                    <i class="fa-solid fa-caret-down dropdown-icon" style="border: none"></i>
+                    <h1 class="small-heading">الوحدة 3 : جمل الشرط</h1>
+                    <p class="small-heading num-of-videos"> عدد المحاضرات : 12 </p>
+                </div>
+
+                <div id="collapse3" class="collapse" aria-labelledby="heading3"
+                     data-parent="#accordion">
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">1 تاريخ البرمجة</h5>
+                        <p>2 دقيقة </p>
+                        <hr>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">2 تثبيت لغة جافا</h5>
+                        <p>6 دقيقة </p>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="card" dir="rtl">
+                <div id="heading4" class="card-header collapsed" data-toggle="collapse"
+                     data-target="#collapse4"
+                     aria-expanded="false" aria-controls="collapse4" style="margin-bottom: 0.5rem;">
+                    <i class="fa-solid fa-caret-down dropdown-icon" style="border: none"></i>
+                    <h1 class="small-heading">الوحدة 4 : التكرارات</h1>
+                    <p class="small-heading num-of-videos"> عدد المحاضرات : 12 </p>
+                </div>
+
+                <div id="collapse4" class="collapse" aria-labelledby="heading4"
+                     data-parent="#accordion">
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">1 تاريخ البرمجة</h5>
+                        <p>2 دقيقة </p>
+                        <hr>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">2 تثبيت لغة جافا</h5>
+                        <p>6 دقيقة </p>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="card" dir="rtl">
+                <div id="heading5" class="card-header collapsed" data-toggle="collapse"
+                     data-target="#collapse5"
+                     aria-expanded="false" aria-controls="collapse5" style="margin-bottom: 0.5rem;">
+                    <i class="fa-solid fa-caret-down dropdown-icon" style="border: none"></i>
+                    <h1 class="small-heading">الوحدة 5 : الدوال</h1>
+                    <p class="small-heading num-of-videos"> عدد المحاضرات : 12 </p>
+                </div>
+
+                <div id="collapse5" class="collapse" aria-labelledby="heading3"
+                     data-parent="#accordion">
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">1 تاريخ البرمجة</h5>
+                        <p>2 دقيقة </p>
+                        <hr>
+                    </div>
+
+                    <div class="card-body">
+                        <h5 class=" small-heading num-of-videos">2 تثبيت لغة جافا</h5>
+                        <p>6 دقيقة </p>
+                        <hr>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="col-lg-7 col-md-8">
+        <div class="main-video">
+            <div class="video">
+                <iframe height="450" width="100%" src="https://www.youtube.com/embed/tbtcz4rtO60"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+
+
+                <div class="placement">
+                    <h3 class="video-title" style="text-align: right">مقدمة في البرمجة</h3>
+                </div>
+                <p class="video-description">يتناول هذا المساق المهارات المستخدمة في تصميم صفحات الإنترنت حيث
+                    يتم
+                    التركيز على تصميم
+                    النهاية الأمامي (Front end) للموقع الإلكتروني. يتعلم الطالب أساسيات برمجة الصفحات باستخدام
+                    HTML5 ومن ثم تنسيق هذه الصفحات وهيكلتها باستخدام CSS3. كذلك يتناول المساق لغات البرمجة
+                    JavaScript و JQuery واستخداماتها للتفاعل مع محتوى الصفحات الإلكترونية.</p>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+</html>

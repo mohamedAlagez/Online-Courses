@@ -1,0 +1,160 @@
+body {
+    font-family: "Tajawal";
+    text-align: center;
+}
+
+.logo {
+    width: 70px;
+}
+
+#main {
+    text-align: left;
+    background: #f7f7f7;
+}
+
+#main .row {
+    align-items: center;
+}
+
+.login-container {
+    text-align: right;
+    padding: 20px;
+}
+
+#main .big-heading {
+    font-family: "Tajawal";
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #1a1661;
+}
+
+#main .container-fluid {
+    padding: 2% 10%
+}
+
+#main .small-heading {
+    font-family: "Tajawal";
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: #a5a5a5;
+}
+
+.welcome-image {
+    width: 100%;
+    padding: 20px;
+}
+
+.registration-input {
+    min-height: 50px;
+    border-radius: 5px;
+    padding: 5px 40px;
+    color: #6a6a6a;
+    font-size: 16px;
+    letter-spacing: .5px;
+    border: #8680ff solid 2px;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    width: 100%;
+    background: white;
+}
+
+.login-btn {
+    border-radius: 2rem;
+    width: 180px;
+    font-size: 16px;
+    background: linear-gradient(to right, #00499b, #005bff);
+    color: #fff;
+    border: 3px solid #eee;
+}
+
+.input-icons i {
+    position: relative;
+    top: 38px;
+}
+
+.input-icons {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.icon {
+    color: #6156F9;
+    min-width: 50px;
+    text-align: center;
+}
+
+.input-icons .eye-icon {
+    position: relative;
+    top: 40px;
+    color: #6156F9;
+    min-width: 50px;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+}
+
+.remember-me {
+    position: relative;
+    top: -8px;
+    margin-right: 10px;
+    color: #151865;
+    font-size: 20px;
+}
+
+.login-btn-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.dont-have-account {
+    display: block;
+    margin-top: 25px;
+    color: #151865 !important;
+    text-decoration: none !important;
+}
+
+/*Edit Profile Css*/
+
+.input-container{
+    display: flex;
+    direction: rtl;
+    align-items: center;
+    margin: 15px 0px;
+}
+
+.input-label{
+    width: 30%;
+    font-size: 20px;
+    font-weight: 600;
+    color: #1a1661;
+    margin: 0;
+}
+
+.edit-profile-input{
+    width: 70%;
+    min-height: 50px;
+    max-height: 50px;
+    border-radius: 5px;
+    padding: 5px 20px;
+    color: #6a6a6a;
+    font-size: 16px;
+    letter-spacing: .5px;
+    border: #8680ff solid 2px;
+    margin: 0px;
+    text-align: right;
+    display: block;
+    background: white;
+}
+
+.edit-user-img-container{
+    width: 30%;
+    text-align: center;
+}
+.edit-user-img {
+    border-radius: 50px;
+    width: 60px;
+    height: 60px;
+}

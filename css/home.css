@@ -1,0 +1,100 @@
+body {
+    font-family: "Tajawal";
+    text-align: center;
+    background: #f7f7f7;
+}
+
+/*Title Section*/
+#navbar {
+    text-align: left;
+}
+
+.notification-container {
+    width: 45px;
+    display: inline-block;
+    border-radius: 50px;
+    background: #f7f7f7;
+    height: 45px;
+    margin: 0 10px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.user-profile-img {
+    border-radius: 50px;
+    width: 45px;
+    height: 45px;
+}
+#navbar .small-heading {
+    display: inline;
+}
+
+.small-heading {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+
+#navbar .container-fluid {
+    padding: 3% 5%;
+}
+
+#navbar .card-body {
+    padding: 0px;
+}
+
+#navbar .row {
+    justify-content: right;
+}
+
+
+.courses-column {
+    padding: 2rem 1rem;
+}
+
+.course-card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    border-radius: 20px;
+    border: none;
+}
+
+.course-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.course-card-container {
+    text-align: right;
+    padding: 12px;
+    width: 100%;
+    min-height: 100px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.course-img {
+    width: 100%;
+    min-height: 130px;
+}
+
+.ellipsis-icon {
+    float: left;
+    font-size: 16px;
+}
+
+.table-time-btn{
+    width: 60px;
+    bottom: 20px;
+    left: 20px;
+    border: navajowhite;
+    position: fixed;
+    display: inline-block;
+    border-radius: 50px;
+    background: #3129bc;
+    height: 60px;
+    margin: 0 10px;
+    z-index: 2;
+    text-align: center;
+    color: white;
+}
